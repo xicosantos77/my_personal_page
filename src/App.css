@@ -1,1 +1,23 @@
-/*# sourceMappingURL=App.css.map */
+@font-face {
+  font-family: "Heebo";
+  src: url("./Assets/Fonts/Heebo-VariableFont_wght.ttf");
+}
+body {
+  min-height: 100vh;
+  font-family: "Heebo";
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  #root {
+    padding-top: 40px;
+  }
+}/*# sourceMappingURL=App.css.map */

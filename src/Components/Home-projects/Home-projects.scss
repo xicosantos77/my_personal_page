@@ -1,0 +1,131 @@
+.projects-wrapper{
+    background: linear-gradient(to bottom, rgb(230,230,230), rgb(150,150,150));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h1,h3,p{
+        margin: 0;
+    }
+
+    .projects-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .projects-head-title{
+            h1{
+                font-weight: 500;
+                letter-spacing: 6px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .projects-head-divisor{
+            height: 4px;
+            width: 300px;
+            background-color: rgb(109, 109, 109);
+            border-radius: 2px;
+            margin-bottom: 30px;
+        }
+
+        .projects-head-desc{
+            p{
+                letter-spacing: 2px;
+                line-height: 1.4;
+            }
+        }
+    }
+
+    .projects-project{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+
+        .projects-project-img{
+            width: 50%;
+            img{
+                //bject-fit: fill;o
+                position: relative;
+                top: -50px;
+                //height: 500px;
+            }
+        }
+        .projects-project-desc{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            text-align: left;
+            margin-top: 50px;
+            margin-left: 40px;
+
+            .projects-project-desc-title{
+                h3{
+                    letter-spacing: 4px;
+                    margin-bottom: 30px;
+                    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+                }
+            }
+
+            .projects-project-desc-text{
+                p{
+                    letter-spacing: 2px;
+                    line-height: 1.4;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .projects-project-desc-button{
+                button{
+                    padding: 0px;
+                    border-radius: 0px;
+                    border: none;
+    
+                    a{
+                        text-decoration: none;
+                        p{
+                            margin: 0;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                            font-size: 18px;
+                            letter-spacing: 6px;
+                            color: white;
+                            background-color: black;
+                        }
+                    }
+    
+    
+                    p:hover{
+                        transition: all 1s ease;
+                        transform: scale(1.1);
+                        background-color: darkgray;
+                        color: black;
+                        border-radius: 20px;
+                    }
+    
+                    p:not(:hover){
+                        transition: all 2s ease;
+                    }
+                }
+    
+                button:hover{
+                    transition: all 1s ease;
+                    box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.6);
+                    
+                }
+    
+                button:not(:hover){
+                    transition: all 2s ease;
+                }
+            }
+        }
+    }
+
+}

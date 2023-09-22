@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+.header .header-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.header .header-logo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.header .header-logo h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  margin-left: 20px;
+  letter-spacing: 6px;
+  text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+}
+.header .header-logo h1:hover {
+  transition: all 0.6s ease;
+  color: white;
+}
+.header .header-logo h1:not(:hover) {
+  transition: all 2s ease;
+}
+.header .header-nav {
+  padding-right: 40px;
+}
+.header .header-nav nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.header .header-nav nav ul li {
+  margin-left: 40px;
+}
+.header .header-nav nav ul li h1 {
+  letter-spacing: 6px;
+}
+.header .header-nav nav ul li h1 a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+.header .header-nav nav ul li h1 a:hover {
+  transition: all 1s ease;
+  color: grey;
+}
+.header .header-nav nav ul li h1 a:not(:hover) {
+  transition: all 1s ease;
+  color: white;
+}
+.header .header-nav nav ul li h1:hover {
+  transition: all 1s ease;
+  transform: scale(1.2);
+}
+.header .header-nav nav ul li h1:not(:hover) {
+  transition: all 2s ease;
+}/*# sourceMappingURL=header.css.map */

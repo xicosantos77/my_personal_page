@@ -1,0 +1,177 @@
+.about-wrapper{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+
+    .aboutme-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .aboutme-title{
+            h1{
+                font-weight: 500;
+                letter-spacing: 6px;
+                margin: 0;
+                padding-top: 40px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .aboutme-divisor{
+            height: 4px;
+            width: 300px;
+            background-color: rgb(109, 109, 109);
+            border-radius: 2px;
+            margin-bottom: 30px;
+        }
+
+        .aboutme-desc{
+            p{
+                margin: 0;
+                text-align: center;
+                letter-spacing: 2px;
+                line-height: 1.4;
+            }
+        }
+    }
+
+    .about-details{
+        width: 70%;
+        margin-top: 30px;
+        display: flex;
+        //align-items: center;
+        justify-content:space-around;
+
+        h3, p{
+            margin: 0;
+        }
+
+        .about-details-text{
+            width: 50%;
+
+            .about-details-title{
+                h3{
+                    letter-spacing: 4px;
+                    margin-bottom: 20px;
+                    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+                }
+            }
+
+            .about-details-text-detail{
+                padding-right: 15%;
+                p{
+                    letter-spacing: 2px;
+                    line-height: 1.4;
+                    margin-bottom: 20px;
+                };
+            }
+
+            .about-details-button{
+                button{
+                    margin-top: 20px;
+                    padding: 0px;
+                    border-radius: 0px;
+                    border: none;
+    
+                    a{
+                        text-decoration: none;
+                        p{
+                            margin: 0;
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                            padding-left: 40px;
+                            padding-right: 40px;
+                            font-size: 20px;
+                            letter-spacing: 6px;
+                            color: white;
+                            background-color: black;
+                        }
+                    }
+    
+    
+                    p:hover{
+                        transition: all 1s ease;
+                        transform: scale(1.1);
+                        background-color: darkgray;
+                        color: black;
+                        border-radius: 20px;
+                    }
+    
+                    p:not(:hover){
+                        transition: all 2s ease;
+                    }
+                }
+    
+                button:hover{
+                    transition: all 1s ease;
+                    box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.6);
+                    
+                }
+    
+                button:not(:hover){
+                    transition: all 2s ease;
+                }
+            }
+        }
+
+        .about-skills{
+            width: 50%;
+
+            .about-skills-title{
+                h3{
+                    letter-spacing: 4px;
+                    margin-bottom: 20px;
+                    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+                }
+            }
+
+            .about-skills-skills{
+                button{
+                    padding: 0px;
+                    border-radius: 0px;
+                    border: none;
+                    margin: 10px;
+    
+                    p{
+                        margin: 0;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        padding-left: 30px;
+                        padding-right: 30px;
+                        font-size: 15px;
+                        letter-spacing: 6px;
+                        color: white;
+                        background-color: black;
+                    }
+    
+                    p:hover{
+                        transition: all 1s ease;
+                        transform: scale(1.1);
+                        background-color: darkgray;
+                        color: black;
+                        border-radius: 20px;
+                    }
+    
+                    p:not(:hover){
+                        transition: all 2s ease;
+                    }
+                }
+    
+                button:hover{
+                    transition: all 1s ease;
+                    box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.6);
+                    
+                }
+    
+                button:not(:hover){
+                    transition: all 2s ease;
+                }
+            }
+        }
+    }
+}
